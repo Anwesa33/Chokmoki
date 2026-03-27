@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Chokmoki</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/owl-carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    
+    <link href="css/font-awesome.css" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="full-height">
+      <header>
+        <div class="topbar"><p>New Year sale discount off 30%! <a href="#">Shop Now</a></p></div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="images/top-logo.png" alt=""></a>
+                  <div class="nav-item search-item">
+                    <a class="nav-link" href="javascript:;" id="for-search" onclick="myFunction()"><img src="images/search-nav.png" alt=""><span>Search</span></a>
+                  <div class="nav-search" id="nav_srch">
+                    <input type="text" id="nav-search" placeholder="Search here...">
+                    <button type="submit"><img src="images/search-nav.png" alt=""></button>
+                  </div> 
+                </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="addBG()"  id="nticon">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarNav">
+                    <div class="nav-left">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><img src="images/home-nav.png" alt=""><span>Home</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><img src="images/jewellery-nav.png" alt=""><span>Jewellery</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><img src="images/info-nav.png" alt=""><span>Info</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="images/testimonial-nav.png" alt=""><span>Testimonial</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="images/best-selling-nav.png" alt=""><span>Best Selling</span></a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="nav-right">
+                        <ul class="navbar-nav">
+                            <!-- <li class="nav-item" style="position: relative;">
+                              <a class="nav-link" href="javascript:;" id="for-search" onclick="myFunction()"><img src="images/search-nav.png" alt=""><span>Search</span>
+                             
+                            </a>
+                            <div class="nav-search" id="nav_srch">
+                              <input type="text" id="nav-search" placeholder="Search here...">
+                              <button type="submit"><img src="images/search-nav.png" alt=""></button>
+                            </div> 
+                            </li> -->
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><img src="images/profile-nav.png" alt=""><span>Profile</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><img src="images/contact-nav.png" alt=""><span>Contact Us</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="images/wishlist-nav.png" alt=""><strong>8</strong><span>Wishlist</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="images/cart-nav.png" alt=""><strong>3</strong><span>Cart</span></a>
+                            </li>
+                          </ul>
+                    </div>                                       
+                  </div>
+                </div>
+              </nav>
+    </header>
+
+    <section class="banner">      
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-slide-to="0" data-bs-interval="10000">
+                <div class="banner-box">
+                    <img src="images/banner-img.png" alt="" class="bnr-bg-img">
+                    <div class="girl"><img src="images/girl.png" alt=""></div>
+                    <h4 class="nw-ar">new Arrival</h4>
+                    <div class="banner-text">
+                        <h6 class=" wow fadeInUp">Now up to <span>70%</span> off*</h6>
+                        <h1  class=" wow fadeInUp">Flower Diamond collection</h1>
+                        <!-- <a href="#" class="btn-style-1 wow fadeInUp"><span></span><strong>Explore Now</strong></a> -->
+                        <a href="#" class="butn__bnr"><span class="btn-line"></span>Explore Now<span></span><span></span><span></span><span></span></a>
+                    </div>
+                    <img src="images/bnr-ring.png" alt="" class="bnr-ring">
+                </div>
+              </div>
+              <div class="carousel-item" data-slide-to="1" data-bs-interval="10000">
+                <div class="banner-box">
+                    <img src="images/banner-img.png" alt="" class="bnr-bg-img">
+                    <div class="girl"><img src="images/girl.png" alt=""></div>
+                    <h4 class="nw-ar">new Arrival</h4>
+                    <div class="banner-text">
+                        <h6  class=" wow fadeInUp">Now up to <span>70%</span> off*</h6>
+                        <h1  class=" wow fadeInUp">Flower Diamond collection</h1>
+                        <!-- <a href="#" class="btn-style-1 wow fadeInUp"><span></span><strong>Explore Now</strong></a> -->
+                        <a href="#" class="butn__bnr"><span class="btn-line"></span>Explore Now<span></span><span></span><span></span><span></span></a>
+                    </div>
+                    <img src="images/bnr-ring.png" alt="" class="bnr-ring">
+                </div>
+              </div>
+              <div class="carousel-item" data-slide-to="2" data-bs-interval="10000">
+                <div class="banner-box">
+                    <img src="images/banner-img.png" alt="" class="bnr-bg-img">
+                    <div class="girl"><img src="images/girl.png" alt=""></div>
+                    <h4 class="nw-ar">new Arrival</h4>
+                    <div class="banner-text">
+                        <h6 class="wow fadeInUp">Now up to <span>70%</span> off*</h6>
+                        <h1 class="wow fadeInUp">Flower Diamond collection</h1>
+                        <!-- <a href="#" class="btn-style-1 wow fadeInUp"><span></span><strong>Explore Now</strong></a> -->
+                        <a href="#" class="butn__bnr"><span class="btn-line"></span>Explore Now<span></span><span></span><span></span><span></span></a>
+                    </div>
+                    <img src="images/bnr-ring.png" alt="" class="bnr-ring">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+
+          <a href="#colct" class="bnr-dwn-arw">
+            <img src="images/dwn-pointer.png" alt="">
+            <span class="bnr-overlay"></span>
+          </a>
+          
+    </section>
+   
+ </div>
+   <section class="collection">    
+    <div id="colct"></div>
+    <div class="container">
+      <div class="colct-heading wow fadeInUp" id="ring_cont">
+        <h4>Chokmoki</h4>
+        <h2>Collections</h2>
+        <div class="hd-ring"><img src="images/hd-ring.png" alt="" id="ring_inr"></div>
+        
+      
+      </div>
+      <div class="owl-carousel owl-theme owl-collect wow fadeInUp">
+        <div class="item">
+          <a href="#" class="collect-box">
+            <div class="collect-img"><img src="images/collect1.png" alt=""></div>
+            <div class="collect-txt"><span></span><h4>Necklace</h4></div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#" class="collect-box">
+            <div class="collect-img"><img src="images/collect2.png" alt=""></div>
+            <div class="collect-txt"><span></span><h4>Earring</h4></div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#" class="collect-box">
+            <div class="collect-img"><img src="images/collect3.png" alt=""></div>
+            <div class="collect-txt"><span></span><h4>Bracelet</h4></div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#" class="collect-box">
+            <div class="collect-img"><img src="images/collect4.png" alt=""></div>
+            <div class="collect-txt"><span></span><h4>Ring</h4></div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#" class="collect-box">
+            <div class="collect-img"><img src="images/collect1.png" alt=""></div>
+            <div class="collect-txt"><span></span><h4>Necklace</h4></div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#" class="collect-box">
+            <div class="collect-img"><img src="images/collect2.png" alt=""></div>
+            <div class="collect-txt"><span></span><h4>Earring</h4></div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#" class="collect-box">
+            <div class="collect-img"><img src="images/collect3.png" alt=""></div>
+            <div class="collect-txt"><span></span><h4>Bracelet</h4></div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#" class="collect-box">
+            <div class="collect-img"><img src="images/collect4.png" alt=""></div>
+            <div class="collect-txt"><span></span><h4>Ring</h4></div>
+          </a>
+        </div>
+    </div>
+    </div>      
+   </section>
+
+<section class="new">
+  <div class="container-fluid">
+    <div class="new-hd wow fadeInUp">
+      <div class="one">
+        <h2 data-text="N">N</h2>
+      </div>
+      <h4>New Arrivals</h4>
+      <p>Through original imagery and editorial perspectives, we bring you unique point newviews.
+      </p>
+    </div>
+    <div class="new-inr">
+      <div class="row g-0 justify-content-center">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+          <div class="new-box wow fadeInUp">
+            <div class="new-img"><a href="#" class="img-area"><img src="images/new1.png" alt=""></a> <a href="javascript:;" class="new-wish"><div class="heart"></div></a></div>
+            <div class="new-txt">
+              <ul class="rate">
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-ash.png" alt=""></li>
+                <li><p>(4.0) <span>10 Reviews</span></p></li>
+              </ul>
+              <a href="#">Silver Diamond Waves Ring</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed </p>
+              <div class="price">
+                <h4 class="not">₹410.00</h4>
+                <h4 class="this">₹300.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+          <div class="new-box wow fadeInUp">
+            <div class="new-img"><a href="#" class="img-area"><img src="images/new2.png" alt=""></a> <a href="javascript:;" class="new-wish"><div class="heart"></div></a></div>
+            <div class="new-txt">
+              <ul class="rate">
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-ash.png" alt=""></li>
+                <li><p>(4.0) <span>10 Reviews</span></p></li>
+              </ul>
+              <a href="#">Oxidised Silver Heart Ring</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed </p>
+              <div class="price">
+                <h4 class="not">₹210.00</h4>
+                <h4 class="this">₹180.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+          <div class="new-box wow fadeInUp">
+            <div class="new-img"><a href="#" class="img-area"><img src="images/new3.png" alt=""></a> <a href="javascript:;" class="new-wish"><div class="heart"></div></a></div>
+            <div class="new-txt">
+              <ul class="rate">
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-ash.png" alt=""></li>
+                <li><p>(4.0) <span>10 Reviews</span></p></li>
+              </ul>
+              <a href="#">Golden Diamond Funfair Ring</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed </p>
+              <div class="price">
+                <h4 class="not">₹210.00</h4>
+                <h4 class="this">₹180.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">        
+          <div class="new-box wow fadeInUp mr-0">
+            <div class="new-img"><a href="#" class="img-area"><img src="images/new4.png" alt=""></a> <a href="javascript:;" class="new-wish"><div class="heart"></div></a></div>
+            <div class="new-txt">
+              <ul class="rate">
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-ash.png" alt=""></li>
+                <li><p>(4.0) <span>10 Reviews</span></p></li>
+              </ul>
+              <a href="#">Silver Love is Power Set</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed </p>
+              <div class="price">
+                <h4 class="not">₹210.00</h4>
+                <h4 class="this">₹180.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+          <div class="new-box wow fadeInUp">
+            <div class="new-img"><a href="#" class="img-area"><img src="images/new5.png" alt=""></a> <a href="javascript:;" class="new-wish"><div class="heart"></div></a></div>
+            <div class="new-txt">
+              <ul class="rate">
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-ash.png" alt=""></li>
+                <li><p>(4.0) <span>10 Reviews</span></p></li>
+              </ul>
+              <a href="#">Oxidised Silver Heart Ring</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed </p>
+              <div class="price">
+                <h4 class="not">₹410.00</h4>
+                <h4 class="this">₹300.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+          <div class="new-box wow fadeInUp">
+            <div class="new-img"><a href="#" class="img-area"><img src="images/new6.png" alt=""></a> <a href="javascript:;" class="new-wish"><div class="heart"></div></a></div>
+            <div class="new-txt">
+              <ul class="rate">
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-ash.png" alt=""></li>
+                <li><p>(4.0) <span>10 Reviews</span></p></li>
+              </ul>
+              <a href="#">Silver Diamond Waves Ring</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed </p>
+              <div class="price">
+                <h4 class="not">₹210.00</h4>
+                <h4 class="this">₹180.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+          <div class="new-box wow fadeInUp">
+            <div class="new-img"><a href="#" class="img-area"><img src="images/new7.png" alt=""></a> <a href="javascript:;" class="new-wish"><div class="heart"></div></a></div>
+            <div class="new-txt">
+              <ul class="rate">
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-ash.png" alt=""></li>
+                <li><p>(4.0) <span>10 Reviews</span></p></li>
+              </ul>
+              <a href="#">Golden Diamond Funfair Ring</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed </p>
+              <div class="price">
+                <h4 class="not">₹210.00</h4>
+                <h4 class="this">₹180.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+          <div class="new-box wow fadeInUp mr-0">
+            <div class="new-img"><a href="#" class="img-area"><img src="images/new8.png" alt=""></a> <a href="javascript:;" class="new-wish"><div class="heart"></div></a></div>
+            <div class="new-txt">
+              <ul class="rate">
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-active.png" alt=""></li>
+                <li><img src="images/Star-ash.png" alt=""></li>
+                <li><p>(4.0) <span>10 Reviews</span></p></li>
+              </ul>
+              <a href="#">Oxidised Silver Heart Ring</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed </p>
+              <div class="price">
+                <h4 class="not">₹210.00</h4>
+                <h4 class="this">₹180.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <a href="#" class="new-btn wow fadeInRight"><span></span><h4>EXPLORE ALL</h4></a>
+        </div>  
+      </div>
+          
+    </div>
+  </div>
+</section>
+
+<section class="stand ">
+  <div class="leaf"><img src="images/leaf.png" alt=""></div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-5 col-md-5 col-sm-5">
+        <div class="stand-vid wow fadeInUp">
+          <img src="images/vid-snip.png" alt="">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="images/vid-play.png" alt="">
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-7 col-sm-7 h-100">
+        <div class="stand-txt wow fadeInRight">
+          <h4>Now up to <span>70%</span> off*</h4>
+          <h2>Stand <br>
+            Out In Style</h2>
+            <p>Through original imagery and editorial perspectives, we bring you unique point newviews, the untold stories the most creative people</p>
+            <a href="#"><span></span><h4>Discover now</h4></a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section class="artist">
+  <div class="container">
+    <div class="artist-hd colct-heading wow fadeInUp">
+      <h4>Artist's</h4>
+      <h2 class="d-flex justify-content-center">Collections</h2>
+      <div class="artist-img"><img src="images/canvas.png" alt=""></div>
+    </div>
+    <div class="art-inr wow fadeInRight">
+      <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+      <a href="#"><span></span><h4>Discover Now</h4></a>
+    </div>
+  </div>
+</section>
+
+
+<section class="best">
+  <div class="container">
+    <div class="new-hd best-hd wow fadeInUp">
+      <div class="one">
+        <h2 data-text="B">B</h2>
+      </div>
+      <h4>Best Selling</h4>
+      <p>Through original imagery and editorial perspectives, we bring you unique point newviews.
+      </p>
+    </div>
+    <div class="best-inr wow fadeInUp">
+      <div class="owl-carousel owl-theme owl-best">
+        <div class="item">
+          <div class="best-box">
+            <div class="best-img">
+              <a href="#" class="bimg-srea"><img src="images/best1.png" alt=""></a>
+              <a href="#" class="bwish"></a>
+            </div>
+            <div class="best-txt">
+              <a href="#">Round Stone Earrings</a>
+              <div class="b-prc">
+                <h4 class="b-not">₹12,000</h4>
+                <h4 class="b-this">₹10,000</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="best-box">
+            <div class="best-img">
+              <a href="#" class="bimg-srea"><img src="images/best2.png" alt=""></a>
+              <a href="#" class="bwish"></a>
+            </div>
+            <div class="best-txt">
+              <a href="#">Round Stone Earrings</a>
+              <div class="b-prc">
+                <h4 class="b-not">₹12,000</h4>
+                <h4 class="b-this">₹10,000</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="best-box">
+            <div class="best-img">
+              <a href="#" class="bimg-srea"><img src="images/best3.png" alt=""></a>
+              <a href="#" class="bwish"></a>
+            </div>
+            <div class="best-txt">
+              <a href="#">Round Stone Earrings</a>
+              <div class="b-prc">
+                <h4 class="b-not">₹12,000</h4>
+                <h4 class="b-this">₹10,000</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="best-box">
+            <div class="best-img">
+              <a href="#" class="bimg-srea"><img src="images/best4.png" alt=""></a>
+              <a href="#" class="bwish"></a>
+            </div>
+            <div class="best-txt">
+              <a href="#">Round Stone Earrings</a>
+              <div class="b-prc">
+                <h4 class="b-not">₹12,000</h4>
+                <h4 class="b-this">₹10,000</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="best-box">
+            <div class="best-img">
+              <a href="#" class="bimg-srea"><img src="images/best1.png" alt=""></a>
+              <a href="#" class="bwish"></a>
+            </div>
+            <div class="best-txt">
+              <a href="#">Round Stone Earrings</a>
+              <div class="b-prc">
+                <h4 class="b-not">₹12,000</h4>
+                <h4 class="b-this">₹10,000</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="best-box">
+            <div class="best-img">
+              <a href="#" class="bimg-srea"><img src="images/best2.png" alt=""></a>
+              <a href="#" class="bwish"></a>
+            </div>
+            <div class="best-txt">
+              <a href="#">Round Stone Earrings</a>
+              <div class="b-prc">
+                <h4 class="b-not">₹12,000</h4>
+                <h4 class="b-this">₹10,000</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="best-box">
+            <div class="best-img">
+              <a href="#" class="bimg-srea"><img src="images/best3.png" alt=""></a>
+              <a href="#" class="bwish"></a>
+            </div>
+            <div class="best-txt">
+              <a href="#">Round Stone Earrings</a>
+              <div class="b-prc">
+                <h4 class="b-not">₹12,000</h4>
+                <h4 class="b-this">₹10,000</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="best-box">
+            <div class="best-img">
+              <a href="#" class="bimg-srea"><img src="images/best4.png" alt=""></a>
+              <a href="#" class="bwish"></a>
+            </div>
+            <div class="best-txt">
+              <a href="#">Round Stone Earrings</a>
+              <div class="b-prc">
+                <h4 class="b-not">₹12,000</h4>
+                <h4 class="b-this">₹10,000</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="testi">
+  <div class="container">
+    <div class="new-hd testi-hd wow fadeInUp">
+      <div class="one">
+        <h2 data-text="H">H</h2>
+      </div>
+      <h4>happy clients say</h4>
+    </div>
+    <div class="testi-inr wow fadeInRight">
+      <div class="owl-carousel owl-theme owl-testi">
+        <div class="item">
+          <div class="testi-box">
+            <ul class="rate test-rate">
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+            </ul>
+            <h3>“Amazing piece of history”</h3>
+            <p>Through original imagery and editorial a perspectives, we bring you unique point a new new views.</p>
+            <div class="test-img"><img src="images/tester1.png" alt=""></div>
+            <h4>Ann Smith</h4>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testi-box">
+            <ul class="rate test-rate">
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+            </ul>
+            <h3>“Fabulous Grounds”</h3>
+            <p>Through original imagery and editorial a perspectives, we bring you unique point a new new views.</p>
+            <div class="test-img"><img src="images/tester2.png" alt=""></div>
+            <h4>Saitama One</h4>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testi-box">
+            <ul class="rate test-rate">
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+            </ul>
+            <h3>“Great vineyard tour and tasting!”</h3>
+            <p>Through original imagery and editorial a perspectives, we bring you unique point a new new views.</p>
+            <div class="test-img"><img src="images/tester3.png" alt=""></div>
+            <h4>Sara Colinton</h4>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testi-box">
+            <ul class="rate test-rate">
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+            </ul>
+            <h3>“Amazing piece of history”</h3>
+            <p>Through original imagery and editorial a perspectives, we bring you unique point a new new views.</p>
+            <div class="test-img"><img src="images/tester1.png" alt=""></div>
+            <h4>Ann Smith</h4>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testi-box">
+            <ul class="rate test-rate">
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+            </ul>
+            <h3>“Fabulous Grounds”</h3>
+            <p>Through original imagery and editorial a perspectives, we bring you unique point a new new views.</p>
+            <div class="test-img"><img src="images/tester2.png" alt=""></div>
+            <h4>Saitama One</h4>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testi-box">
+            <ul class="rate test-rate">
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+              <li><img src="images/Star-active.png" alt=""></li>
+            </ul>
+            <h3>“Great vineyard tour and tasting!”</h3>
+            <p>Through original imagery and editorial a perspectives, we bring you unique point a new new views.</p>
+            <div class="test-img"><img src="images/tester3.png" alt=""></div>
+            <h4>Sara Colinton</h4>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="doubt">
+  <div class="container">
+    <div class="doubt-inr">
+      <div class="row">
+        <div class="col-lg-4 col-md-5">
+          <div class="doubt-img wow fadeInLeft">
+            <img src="images/doubt-bg.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-7">
+          <div class="doubt-txt">
+            <div class="doubt-hd new-hd wow fadeInRight">
+              <div class="two one">
+                <h2 data-text="H">H</h2>
+              </div>
+              <h4>Have A Doubt</h4>
+            </div>
+            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+            <a href="#" class="dbt-btn"><span></span><h4>GET IN TOUCH</h4></a>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</section>
+
+<section class="feature">
+  <div class="container">
+    <div class="faeture-inr wow fadeInUp">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 d-flex justify-content-center">
+          <div class="feat-box ft1">
+            <div class="feat-img"><img src="images/ft1.png" alt=""></div>
+            <div class="ft-txt">
+              <h4>Payment & Delivery</h4>
+              <p>Free shipping for orders over ₹18,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 d-flex justify-content-center">
+          <div class="feat-box ft2">
+            <div class="feat-img"><img src="images/ft2.png" alt=""></div>
+            <div class="ft-txt">
+              <h4>Easy Return & Refund</h4>
+            <p>Free 100% money back guarantee</p>
+            </div>            
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 d-flex justify-content-center">
+          <div class="feat-box ft3">
+            <div class="feat-img"><img src="images/ft3.png" alt=""></div>
+            <div class="ft-txt">
+              <h4>Quality Support</h4>
+            <p>Always online feedback 24/7</p>
+            </div>            
+          </div>
+        </div>
+      </div>     
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-top">
+    <div class="container">
+      <div class="foot-top-inr wow fadeInUp">
+        <div class="row">
+          <div class="col-lg-5 col-md-7">
+            <div class="foot-lft">
+              <a href="index.html" class="foot-logo wow fadeInUp"><img src="images/top-logo.png" alt=""></a>
+              <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+              <div class="foot-sos">
+                <ul>
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6 col-12">
+            <div class="foot-mid">
+              <h4>Quick Links</h4>
+              <div class="foot-mid-inr d-flex">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonial</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Terms & Condition</a></li>
+                  <li><a href="#">Privacy Policy </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-6 col-12">
+            <div class="foot-last">
+              <h4>Contact Info</h4>
+              <ul>
+                <li>Plot No 24, Shop No 10, Neelratan Society, Sector 19, Vashi, Navi Mumbai</li>
+                <li><img src="images/foot-phone.png" alt=""><a href="#">+91 9876543210 /&nbsp;<span style="display: inline-block;">(033) 2999-533</span></a></li>
+                <li><img src="images/foot-mail.png" alt=""><a href="#">support@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy wow fadeInUp">
+    <div class="container">
+      <div class="copy-inr">
+        <p>Copyright © 2022 <a href="index.html">Chokmoki.com</a> All Rights Reserved.</p>
+        <div class="pay-card">
+          <ul>
+            <li><a href="#"><img src="images/mastercard.png" alt=""></a></li>
+            <li><a href="#"><img src="images/visa.png" alt=""></a></li>
+            <li><a href="#"><img src="images/american-express.png" alt=""></a></li>
+            <li><a href="#"><img src="images/discover.png" alt=""></a></li>
+            <li><a href="#"><img src="images/paypal.png" alt=""></a></li>
+            <li><a href="#"><img src="images/amazon-pay.png" alt=""></a></li>
+            <li><a href="#"><img src="images/2cc.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+ <section class="r8-sos wow fadeInRight">
+    <ul>
+      <li><a href="#" class="r8-sos-link"><img src="images/r8-sos-fb.png" alt=""><span>Facebook</span></a></li>
+      <li><a href="#" class="r8-sos-link"><img src="images/r8-sos-google.png" alt=""><span>Google</span></a></li>
+      <li><a href="#" class="r8-sos-link"><img src="images/r8-sos-linkdin.png" alt=""><span>Linkedin</span></a></li>
+      <li><a href="#" class="r8-sos-link"><img src="images/r8-sos-insta.png" alt=""><span>Instagram</span></a></li>
+    </ul>
+ </section>
+ <div class="modal vid-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">  
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>    
+      <div class="modal-body">
+        <iframe src="https://www.youtube.com/embed/WqgKe3dcXxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>     
+    </div>
+  </div>
+</div>
+<button id="scrollToTopBtn" class="scrollTop">
+    <img src="images/go-to-top.png">
+</button>
+
+   <!-- Jquery-->
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.min.js" type="text/javascript"></script> 
+  <script src="js/bootstrap.bundle.js" type="text/javascript"></script>  
+  <script src="js/owl.carousel.min.js" type="text/javascript"></script>  
+  <script src="js/wow.js" type="text/javascript"></script>    
+  <script src="js/wow.script.js" type="text/javascript"></script>    
+  <script src="js/custom.js" type="text/javascript"></script>    
+  <script src="js/go_to_top.js" type="text/javascript"></script> 
+  <!-- Jquery-->
+  
+</body>
+</html>
